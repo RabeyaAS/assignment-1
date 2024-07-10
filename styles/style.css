@@ -85,9 +85,14 @@ nav {
 }
 
 /* Why Web Section */
+main {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
 .why-web-main{
   background-color: rgba(173, 200, 247, 0.09);
-  margin: 0px 350px ;
+  /* margin: 0px 350px; */
   padding: 40px 0;
 }
 
@@ -155,6 +160,52 @@ nav {
 .blog-img {
   height: 240px;
   width: 270px;
-  margin-left: 90px;
+  margin-left: 60px;
+  margin-right: 50px;
 }
 
+.blog-direction {
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
+/* My Inspiriation Section */
+.my-inspiration {
+  display: flex;
+  justify-content: center;
+}
+
+.inspiration-container {
+  margin: 80px 80px;
+
+}
+
+.inspiration-text {
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 0 25px;
+}
+
+.inspiration-title {
+  text-align: center;
+
+}
+
+.inspiration-para {
+  text-align: center;
+  
+}
+
+.video-container {
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgba(13, 19, 33, 0.2);
+  border-radius: 25px;
+}
+
+.video {
+  width: 100%;
+  padding: 0;
+  border-radius: 18px;
+}
