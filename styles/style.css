@@ -13,7 +13,8 @@
   background-position: top left, bottom right;
   background-size: cover;
   width: 100%;
-  padding-bottom: 120px;
+  padding-bottom: 198px;
+  margin-bottom: 110px;
 }
 
 /* header section - nav */
@@ -45,7 +46,7 @@ nav {
 .banner{
   display: flex;
   justify-content: center;
-  margin: 20px 220px 25px 220px;
+  margin: 20px 240px 25px 240px;
 }
 
 .banner-content {
@@ -69,7 +70,7 @@ nav {
 }
 
 .banner-description{
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 40px;
 }
 
@@ -83,5 +84,77 @@ nav {
   text-decoration: none;
 }
 
+/* Why Web Section */
+.why-web-main{
+  background-color: rgba(173, 200, 247, 0.09);
+  margin: 0px 350px ;
+  padding: 40px 0;
+}
+
+.web-cont {
+  margin: 0 70px;
+
+}
+
+
+.why-web{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 120px 20px 120px;
+}
+
+.why-web-text {
+  max-width: 1000px;
+
+}
+
+.why-web-heading{
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.why-web-para{
+  font-size: 17px;
+}
+
+.why-web-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px;
+}
+
+.blog {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.593);
+  border-radius: 16px;
+  margin: 0 0px 20px;
+  padding: 45px;
+}
+
+.blog-heading {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.blog-description {
+  font-size: 16px;
+}
   
+.btn-secondary {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 22px;
+  padding: 15px 20px;
+  border: 3;
+  background-color: rgb(255, 253, 253);
+}
+
+.blog-img {
+  height: 240px;
+  width: 270px;
+  margin-left: 90px;
+}
 
