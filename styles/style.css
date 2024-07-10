@@ -169,7 +169,7 @@ main {
   margin-right: 60px;
 }
 
-/* My Inspiriation Section */
+/* My Inspiration Section */
 .my-inspiration {
   display: flex;
   justify-content: center;
@@ -183,8 +183,8 @@ main {
 .inspiration-text {
   align-content: center;
   justify-content: center;
-  margin-bottom: 40px;
-  padding: 0 25px;
+  margin-bottom: 35px;
+  padding: 0 20px;
 }
 
 .inspiration-title {
@@ -209,3 +209,59 @@ main {
   padding: 0;
   border-radius: 18px;
 }
+
+/* My Current Target section */
+.my-current-target {
+  display: flex;
+  justify-content: center;
+}
+
+.current-target {
+  margin: 100px 0;
+}
+
+.target-text{
+  align-content: center;
+
+}
+
+.target-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target-img {
+  height: 50px;
+  width: 50px;
+}
+
+.target-title{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.target {
+  display: inline-block;
+  background-color: rgba(255, 76, 30, 0.05);
+  width: 255px;
+  height: 300px;
+  margin-right: 25px;
+  margin-bottom: 100px;
+  padding: 40px;
+  border-radius: 15px;
+
+}
+
+.anchor-container {
+  padding-top: 12px;
+}
+
+.back-color {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.java-color {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
