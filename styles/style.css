@@ -71,6 +71,7 @@ nav {
 .banner-description{
   font-size: 17px;
   margin-bottom: 40px;
+  opacity: 0.8;
 }
 
 .contact {
@@ -117,6 +118,7 @@ main {
 
 .why-web-para{
   font-size: 17px;
+  opacity: 0.8;
 }
 
 .why-web-container {
@@ -137,6 +139,7 @@ main {
   font-size: 21px;
   font-weight: 700;
   margin-bottom: 20px;
+  opacity: 0.7;
 }
 
 .blog-description {
@@ -256,6 +259,13 @@ main {
   padding-top: 12px;
 }
 
+.anchor-container .anchor{
+  text-decoration: underline;
+  color: rgba(13, 19, 33, 1);
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .back-color {
   background-color: rgba(0, 76, 232, 0.05);
 }
@@ -266,31 +276,29 @@ main {
 
 
 .support-main{
+  display: flex;
+  justify-content: center;
   background-image: url(../assets/handshake.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 19px;
+  margin: 87px 10px;
+}
+
+.my-support-container{
   height: 280px;
   width: 100%;
   width: 980px;
-  padding: 50px 67px 50px 47px;
-  margin: 50px 170px 200px 110px;
-  border-radius: 19px;
+  margin: 50px 20px;
 }
 
-.my-support-container {
-  display: flex;
-  justify-content: center;
+.support-cont{
   align-items: center;
-}
-
-.support-cont {
-  align-items: center;
-  margin-left: 110px;
 }
 
 .support-text {
   text-align: center;
-}
+} 
 
 .support-title {
   font-size: 30px;
@@ -309,7 +317,6 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
-  
 }
 
 #text {
